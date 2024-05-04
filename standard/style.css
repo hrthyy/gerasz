@@ -19,6 +19,10 @@ img#sphere {
     padding: 2%;
 }
 
+div#page p {
+    color: gray;
+}
+
 @media (pointer: coarse), (hover: none) {
       [title] {
         position: relative;

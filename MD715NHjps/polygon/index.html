@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N-oldalú szabályos sokszög</title>
+    <script src="../script.js"></script>
+    <style>
+        canvas {
+            rotate: 135deg;
+            z-index: 2;
+            position: fixed;
+            right: 38%;
+        }
+        div#page {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            right: 50%;
+        }
+    </style>
+</head>
+
+<body onload="draw(4)">
+    <div id="div-canvas">
+        <canvas id="myCanvas" width="600" height="400">Your browser does not support the HTML5 canvas tag. </canvas>
+    </div>
+    <div id="page">
+        <input type="text" id="sides" placeholder="oldalak száma" oninput="draw(Number(this.value)); calc();" onfocusout="draw(Number(this.value)); calc()">
+        <input type="text" id="sideLength" placeholder="oldal hossza" oninput="calc();" onfocusout="calc();">
+        <p>Kerület: <p id="kerulet"></p></p>
+        <p>Terület: <p id="terulet"></p></p>
+    </div>
+</body>
+
+</html>

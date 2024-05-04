@@ -11,6 +11,6 @@ function submitTxt() {
     if (document.getElementById('txt').value == "csondbe legyel fukner") {
         document.getElementById ('out').innerHTML = "/MD715NHjps";
     } else {
-        document.getElementById('out').innerHTML = "rossz";
+        document.getElementById('out').innerHTML = "rossz jelszó";
     }
 }

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../standard/style.css">
+    <script src="script.js"></script>
+    <title>Level 6</title>
+</head>
+<body>
+    <div id="page">
+        <h1>Level 6</h1>
+        <img onclick="secret();" onmouseenter="revealQr();" title="qr kod kell nekem joci" id="sphere" src="https://hrthyy.github.io/gerasz/standard/sphere0.png" alt="">
+        <p>cXIga29kIHRhcnRhbG1hdCBpZGUgam9jaTo=</p>
+        <div id="qr-input" style="display: none;">
+            <textarea type="text" id="qr-input" rows="4" cols="32"></textarea>
+            <button id="qr-submit" onclick="testForQr();">Submit</button>
+        </div>
+    </div>
+</body>
+</html>

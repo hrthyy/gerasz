@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../standard/style.css">
+    <script src="script.js"></script>
+    <title>Level 7</title>
+    <style>
+        #rect {
+            float: right;
+            margin-bottom: 100px;
+        }
+
+        #div-input {
+            vertical-align: middle;
+        }
+
+        #div-input input {
+            margin: 5px;
+        }
+
+        #b-submit {
+            padding: 10px;
+            margin: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <h1>Level 7</h1>
+        <img title="elcseszted az alapomat joci" id="sphere" src="https://hrthyy.github.io/gerasz/standard/sphere0.png" alt="">
+        <audio controls type="audio/mpeg" src="../MD715NHjps/polygon/tegnapelott.mp3"></audio>
+        <p></p>
+        <div style="height: 600px"></div>
+        <div id="div-input">
+            <p style="color: #505050;">VGhyZWUgRGF5cyBHcmFjZSAtIEFuaW1hbCBJIEhhdmUgQmVjb21l</p>
+            <input type="text" size="4" maxlength="8"><input type="text" size="2" maxlength="4"><input type="text" size="2" maxlength="4"><input type="text" size="2" maxlength="4"><input type="text" size="8" maxlength="12">
+            <br><button id="b-submit" onmouseout="toggleQr(false);" onmousedown="toggleQr(true);" onmouseup="toggleQr(false);" onclick="submitKeys();">Submit</button>
+            <p id="p-out" style="color: white;"></p>
+        </div>
+        <img onclick="submitKeys();" title="serial kulcs kell nekem joci" id="rect" src="https://hrthyy.github.io/gerasz/standard/bg0.png" width="40%" alt="">
+    </div>
+</body>
+</html>

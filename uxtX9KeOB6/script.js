@@ -1,16 +1,1 @@
-console.log("--------------------------------")
-console.log("Level 2")
-
-function moveSphere() {
-    document.getElementById("sphere").removeAttribute("onclick");
-    document.getElementById("page").innerHTML += '<input type="text" id="txt" maxlength=21>'
-    document.getElementById("page").innerHTML += '<button onclick="submitTxt();">Submit</button><p id="out"></p>'
-}
-
-function submitTxt() {
-    if (document.getElementById('txt').value == "csondbe legyel fukner") {
-        document.getElementById ('out').innerHTML = "/MD715NHjps";
-    } else {
-        document.getElementById('out').innerHTML = "rossz jelszó";
-    }
-}
+(function(_0x2e3ca0,_0x171c84){var _0x9bdf8e=_0x2f22,_0x5b99b3=_0x2e3ca0();while(!![]){try{var _0x8192f7=parseInt(_0x9bdf8e(0x148))/0x1+-parseInt(_0x9bdf8e(0x14a))/0x2*(parseInt(_0x9bdf8e(0x14c))/0x3)+parseInt(_0x9bdf8e(0x13b))/0x4*(parseInt(_0x9bdf8e(0x149))/0x5)+parseInt(_0x9bdf8e(0x141))/0x6+parseInt(_0x9bdf8e(0x13a))/0x7+-parseInt(_0x9bdf8e(0x13c))/0x8*(parseInt(_0x9bdf8e(0x14b))/0x9)+-parseInt(_0x9bdf8e(0x14e))/0xa;if(_0x8192f7===_0x171c84)break;else _0x5b99b3['push'](_0x5b99b3['shift']());}catch(_0x5f4584){_0x5b99b3['push'](_0x5b99b3['shift']());}}}(_0x2813,0x68dff));function moveSphere(){var _0x92473a=_0x2f22;document[_0x92473a(0x138)](_0x92473a(0x144))[_0x92473a(0x13f)]('onclick'),document[_0x92473a(0x138)]('page')[_0x92473a(0x14d)]+=_0x92473a(0x146),document[_0x92473a(0x138)](_0x92473a(0x140))['innerHTML']+=_0x92473a(0x142);}function _0x2f22(_0x3dfbb8,_0x1f9c3e){var _0x2813d8=_0x2813();return _0x2f22=function(_0x2f2244,_0x1430ae){_0x2f2244=_0x2f2244-0x138;var _0x3482d8=_0x2813d8[_0x2f2244];return _0x3482d8;},_0x2f22(_0x3dfbb8,_0x1f9c3e);}function submitTxt(){var _0x16b68c=_0x2f22;document[_0x16b68c(0x138)](_0x16b68c(0x143))[_0x16b68c(0x13e)]==_0x16b68c(0x145)?document[_0x16b68c(0x138)]('out')[_0x16b68c(0x14d)]=_0x16b68c(0x147):document[_0x16b68c(0x138)](_0x16b68c(0x13d))['innerHTML']=_0x16b68c(0x139);}function _0x2813(){var _0x7d1e45=['getElementById','rossz\x20jelszó','4122993ysowdx','108uyzRFG','125416qluxka','out','value','removeAttribute','page','3815496pzPIVe','<button\x20onclick=\x22submitTxt();\x22>Submit</button><p\x20id=\x22out\x22></p>','txt','sphere','csondbe\x20legyel\x20fukner','<input\x20type=\x22text\x22\x20id=\x22txt\x22\x20maxlength=21>','/MD715NHjps','251822WdaXrt','103890HCWvpg','1638498HkekLq','234zvpXqR','3uLclYJ','innerHTML','3813250KZRrre'];_0x2813=function(){return _0x7d1e45;};return _0x2813();}

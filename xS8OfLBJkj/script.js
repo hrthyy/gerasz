@@ -1,18 +1,1 @@
-console.log("--------------------------------")
-console.log("Level 4")
-var ans;
-
-function ask() {
-    ans = Number(prompt('melyik busz jar erre joci?',''));
-    if ((ans == null) || (typeof ans != 'number') ) {
-        alert('figyelj mar ide joci');
-        return null;
-    } else {}
-    if (ans == 33) {
-        alert('nyalod a seggem telen nyaron');
-        document.getElementById('page').innerHTML += '<p>0UAptGWKxO</p>';
-    } else {
-        alert('nem ez megy a gombocleso utcaba joci');
-    }
-    return null;
-}
+function _0x8e09(){var _0x2dacb7=['page','innerHTML','melyik\x20busz\x20jar\x20erre\x20joci?','figyelj\x20mar\x20ide\x20joci','371203HYzvoN','nem\x20ez\x20megy\x20a\x20gombocleso\x20utcaba\x20joci','516624VepDEY','186023ueNhGM','2RcgfGt','879536gXvkwD','181580YptBeq','getElementById','189903GdirFJ','12wZCAXT','1967112doupgf','nyalod\x20a\x20seggem\x20telen\x20nyaron','number'];_0x8e09=function(){return _0x2dacb7;};return _0x8e09();}function _0xf8f6(_0xb383ea,_0x29c805){var _0x8e09c5=_0x8e09();return _0xf8f6=function(_0xf8f63b,_0x29400c){_0xf8f63b=_0xf8f63b-0x1b0;var _0x4c1667=_0x8e09c5[_0xf8f63b];return _0x4c1667;},_0xf8f6(_0xb383ea,_0x29c805);}(function(_0xc7e366,_0x55688a){var _0x294d5a=_0xf8f6,_0x4f23be=_0xc7e366();while(!![]){try{var _0x74acd4=parseInt(_0x294d5a(0x1b3))/0x1+-parseInt(_0x294d5a(0x1b4))/0x2*(parseInt(_0x294d5a(0x1b8))/0x3)+-parseInt(_0x294d5a(0x1b5))/0x4+-parseInt(_0x294d5a(0x1b6))/0x5+-parseInt(_0x294d5a(0x1b9))/0x6*(-parseInt(_0x294d5a(0x1b0))/0x7)+-parseInt(_0x294d5a(0x1b2))/0x8+parseInt(_0x294d5a(0x1ba))/0x9;if(_0x74acd4===_0x55688a)break;else _0x4f23be['push'](_0x4f23be['shift']());}catch(_0xd3b614){_0x4f23be['push'](_0x4f23be['shift']());}}}(_0x8e09,0x1ee6a));var ans;function ask(){var _0x492868=_0xf8f6;ans=Number(prompt(_0x492868(0x1bf),''));if(ans==null||typeof ans!=_0x492868(0x1bc))return alert(_0x492868(0x1c0)),null;else{}return ans==0x21?(alert(_0x492868(0x1bb)),document[_0x492868(0x1b7)](_0x492868(0x1bd))[_0x492868(0x1be)]+='<p>0UAptGWKxO</p>'):alert(_0x492868(0x1b1)),null;}

@@ -30,6 +30,11 @@
         padding: 3px;
       }
     }
+
+    p#out {
+        color: white;
+        font-weight: bold;
+    }
 </style>
 <script>
     console.log("--------------------------------")
@@ -39,18 +44,17 @@
         g.style.width = "40%";
     }
     function zoom() {
+        document.getElementsByTagName('body')[0].removeAttribute('onclick');
         document.getElementById("au").play();
-        document.getElementsByTagName("html")[0].style.pointerEvents = "none";
         var xerxes = document.getElementsByTagName("body")[0];
         var pos = 150;
         var timer = setInterval(frame, 10);
         function frame() {
-            console.log(pos)
-            if (pos < -32) {
+            if (pos < 0) {
                 clearInterval(timer);
-                console.log("--------------------------------")
-                console.log("Tedd ezt a link mögé:")
-                console.log("/uxtX9KeOB6")
+                document.getElementById('g').setAttribute("onclick","alert('tedd ezt a link moge joci');");
+                document.getElementById('g').setAttribute("title","tedd ezt a link moge joci");
+                document.getElementsByTagName('body')[0].innerHTML += "<p id='out'>/uxtX9KeOB6</p>"
             }
             xerxes.style.backgroundSize = pos.toString() + "%";
             pos = pos - 0.2;
@@ -63,6 +67,6 @@
 </audio>
 
 <body onload="setWidth();" onclick="zoom();">
-    <img id="g" src="gerasz.gif" title="ctrl+shift+i -> console" alt="Dallamot írok egyedül otthon">
+    <img id="g" src="gerasz.gif" alt="Dallamot írok egyedül otthon">
 </body>
 </html>

@@ -1,1 +1,14 @@
-{}
+{
+    "text": [
+        "Szasz mindenki hornayak kevin vagyk",
+        "Ez a masodik sor",
+        "Ez a harmadik sor",
+        "ez a negyeidk sor",
+    ],
+    "href": [
+        "https://youtu.be/4rDxseu4S6E?t=30",
+        "https://youtu.be/4rDxseu4S6E?t=60",
+        null,
+        "https://youtu.be/4rDxseu4S6E?t=120",
+    ]
+}
